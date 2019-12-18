@@ -1,0 +1,32 @@
+npm 
+
+package.json
+> node just must be installed
+> navigate to the folder using cmd
+> npm init
+> Answer all questions
+> type 'yes
+
+
+> npm install zone.js
+
+
+Local
+Global
+
+npm i -g 
+
+> run cmd as admin
+> npm i -g create-react-app
+> navigate to the folder using cmd
+> create-react-app myapp
+> cd myapp
+> npm start
+
+//Es5
+function add(a,b){
+    return a+b
+}
+
+//Es6
+const add = (a,b) => { return a+b }
