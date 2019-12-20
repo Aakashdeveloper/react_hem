@@ -30,3 +30,22 @@ function add(a,b){
 
 //Es6
 const add = (a,b) => { return a+b }
+
+functional         |         Classbased
+light in weight    |   Heavy in weight
+dumb component     | Logic component
+We use mainly to   | Mainly use to resolve the data or call api
+Display data
+Cannot maintain State |   We can manage state
+
+
+state => act like a local variable in the component
+Prop => help to transfer data
+
+ComponentA    Props           ComponentB
+State A       =====>           State B
+
+
+
+constructor
+class 
