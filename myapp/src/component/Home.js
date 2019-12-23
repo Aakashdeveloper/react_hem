@@ -1,33 +1,26 @@
-import React,{Component} from 'react';
-import './home.css'
+import React , {Component } from 'react';
+import JSON from '../db.json';
+import Header from './Header';
+import NewsList from './NewsList';
 
 class Home extends Component {
+
     constructor(){
         super()
 
         this.state={
-            title:'React App',
-            keywords:'User input here'
+            news:JSON
         }
-    }
-
-    inputChange(event){
-        this.setState({keywords:event.target.value})
     }
     render(){
         return(
-            <header>
-                <div className="logo"
-                onClick={()=>{console.log("logo clicked")}}
-                >{this.state.title}
-                </div>
-                <center>
-                    <input onChange={this.inputChange.bind(this)}/>
-                    <p>{this.state.keywords}</p>
-                </center>
-            </header>
+            <div>
+                <Header/>
+                <NewsList newsData={this.state.news}/>
+            </div>
         )
     }
 }
+
 
 export default Home;

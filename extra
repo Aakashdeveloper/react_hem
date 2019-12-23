@@ -49,3 +49,19 @@ State A       =====>           State B
 
 constructor
 class 
+
+
+var a = [1,2,3,4]
+
+for(i=0; i<a.length;i++){
+    console.log(a[i])
+}
+
+
+a.map((data)=>{console.log(data)}
+
+/////
+filter 
+index of
+ternery opt
+///////
