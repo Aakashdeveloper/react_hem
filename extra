@@ -58,10 +58,14 @@ for(i=0; i<a.length;i++){
 }
 
 
-a.map((data)=>{console.log(data)}
+a.map((data)=>{data)}
 
 /////
 filter 
 index of
 ternery opt
 ///////
+
+var a = [0,1,2,3,4]
+a.map((data) => { return data*1})
+a.filter((data) => { return data*1})
