@@ -69,3 +69,7 @@ ternery opt
 var a = [0,1,2,3,4]
 a.map((data) => { return data*1})
 a.filter((data) => { return data*1})
+
+////////
+npm i -g json-server
+json-server --watch db.json --port 8900

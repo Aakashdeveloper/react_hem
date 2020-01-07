@@ -1,6 +1,26 @@
 import React,{Component} from 'react';
+const url = "http://localhost:8900/topics"
 
 class PostDetails extends Component {
+    constructor(){
+        super()
+
+        this.state={
+            details:''
+        }
+    }
+
+    componentDidMount(){
+        fetch(`${url}/${this.props.match.params.topic}`,{
+            method:'GET'
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            this.setState({
+                details:data
+            })
+        })
+    }
     render(){
         console.log(this.props)
         return(
@@ -9,8 +29,8 @@ class PostDetails extends Component {
                     PostDetails Page
                 </div>
                <div className="panel-body">
-                   <h1>Details of {this.props.match.params.topic}</h1>
-                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ...
+                   <h1>Details of {this.state.details.name}</h1>
+                   <p>{this.state.details.details}
                    </p>
                </div>
             </div>
