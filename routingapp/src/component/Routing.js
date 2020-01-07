@@ -4,6 +4,7 @@ import Posts from './Posts';
 import Profile from './Profile';
 import PostDetails from './PostDetails';
 import { BrowserRouter, Route, Link} from 'react-router-dom';
+import LifeCycle from './lifecycle';
 
 class Routing extends Component{
     render(){
@@ -25,6 +26,7 @@ class Routing extends Component{
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/posts">Posts</Link></li>
                         <li><Link to="/profile">Profile</Link></li>
+                        <li><Link to="/lifeCycle">LifeCycle</Link></li>
                     </ul>
                     
                     </div>
@@ -34,6 +36,7 @@ class Routing extends Component{
                 <Route exact path='/posts' component={Posts}></Route>
                 <Route exact path='/posts/:topic' component={PostDetails}></Route>
                 <Route exact path='/profile' component={Profile}></Route>
+                <Route exact path="/lifeCycle" component={LifeCycle}></Route>
             </div>
         </BrowserRouter>
         )

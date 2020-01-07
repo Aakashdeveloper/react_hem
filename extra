@@ -73,3 +73,44 @@ a.filter((data) => { return data*1})
 ////////
 npm i -g json-server
 json-server --watch db.json --port 8900
+
+
+
+componentDidUpdate
+Here are pretty much of those topics sir
+
+Add Plugins
+Set Loaders
+Force Update
+Find DOM Node
+Component Life Cycle :-
+Lifecycle Methods(just talked about 1 life cycle method)
+Events :-
+Simple
+Child
+Animations :-
+Install React CSS Transitions Group
+Appear Animation
+Enter and Leave Animations
+
+******
+Flux Concept :-
+What is Flux
+Flux Elements
+Flux Props
+Using Flux :-
+******
+
+
+///////
+Forms :-
+Simple
+Complex
+Refs :-
+What is Refs
+Using Refs
+Install Redux
+Reducers
+Store
+Unit Testing – Tools, React, Redux
+Higher Order Components :-
