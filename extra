@@ -92,6 +92,9 @@ Animations :-
 Install React CSS Transitions Group
 Appear Animation
 Enter and Leave Animations
+Install Redux
+Reducers
+Store
 
 ******
 Flux Concept :-
@@ -109,8 +112,8 @@ Complex
 Refs :-
 What is Refs
 Using Refs
-Install Redux
-Reducers
-Store
 Unit Testing – Tools, React, Redux
 Higher Order Components :-
+
+
+ npm i redux react-redux redux-promise

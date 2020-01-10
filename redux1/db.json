@@ -1,0 +1,30 @@
+{
+    "topics":[
+        {
+            "id":1,
+            "name":"Javascript",
+            "details":"this is about the javascript"
+        },
+        {
+            "id":2,
+            "name":"React",
+            "details":"this is about the React"
+        },
+        {
+            "id":3,
+            "name":"Node",
+            "details":"this is about the Node"
+        },
+        {
+            "id":4,
+            "name":"GoLang",
+            "details":"this is about the GoLang"
+        }
+        ,
+        {
+            "id":5,
+            "name":"Angular",
+            "details":"this is about the Angular"
+        }
+    ]
+}
