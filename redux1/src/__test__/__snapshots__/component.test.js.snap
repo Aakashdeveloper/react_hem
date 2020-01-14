@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Component snapshot TestHam component 1`] = `
+<div
+  className="panel panel-primary"
+>
+  <div
+    className="panel-heading"
+  >
+    <h3>
+      Topics app
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`testing Component snapshot TopicListing 1`] = `
+<div
+  className="panel panel-primary"
+>
+  <div
+    className="panel-heading"
+  >
+    <h3>
+      Topics app
+    </h3>
+  </div>
+</div>
+`;
